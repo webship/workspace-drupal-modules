@@ -1,0 +1,159 @@
+doc:
+  name: modules
+modules:
+  - ace_editor
+  - adminimal_admin_toolbar
+  - admin_toolbar
+  - advanced_text_formatter
+  - anchor_link
+  - autocomplete_deluxe
+  - better_exposed_filters
+  - betterlogin
+  - better_normalizers
+  - blazy
+  - block_class
+  - bootstrap_layouts
+  - captcha
+  - charts
+  - checklistapi
+  - ckeditor_bidi
+  - ckeditor_media_embed
+  - coffee
+  - color_field
+  - config_filter
+  - config_ignore
+  - config_perms
+  - config_update
+  - consumers
+  - content_lock
+  - crop
+  - ctools
+  - default_content
+  - devel
+  - diff
+  - drd_agent
+  - dropzonejs
+  - ds
+  - embed
+  - entity
+  - entity_browser
+  - entity_browser_enhanced
+  - entity_clone
+  - entity_embed
+  - entityqueue
+  - entityqueue_form_widget
+  - entity_reference_revisions
+  - events_log_track
+  - extlink
+  - fast_404
+  - features
+  - field_group
+  - file_mdm
+  - focal_point
+  - genpass
+  - google_analytics
+  - google_analytics_reports
+  - honeypot
+  - imageapi_optimize
+  - imagemagick
+  - image_resize_filter
+  - inline_entity_form
+  - jsonapi_extras
+  - l10n_client
+  - layout_builder_restrictions
+  - length_indicator
+  - libraries
+  - libraries_ui
+  - link_attributes
+  - linkit
+  - login_destination
+  - mail_edit
+  - mailsystem
+  - masonry
+  - masquerade
+  - maxlength
+  - media_entity_instagram
+  - media_entity_twitter
+  - menu_admin_per_menu
+  - menu_block
+  - menu_position
+  - metatag
+  - node_edit_protection
+  - openapi
+  - openapi_ui
+  - openapi_ui_redoc
+  - openapi_ui_swagger
+  - page_manager
+  - panels
+  - paragraphs
+  - paragraphs_asymmetric_translation_widgets
+  - paragraphs_edit
+  - paragraphs_features
+  - paragraphs_previewer
+  - password_policy
+  - pathauto
+  - pathologic
+  - persistent_login
+  - rabbit_hole
+  - recaptcha
+  - redirect
+  - responsive_preview
+  - restui
+  - revision_log_default
+  - roleassign
+  - schema_metatag
+  - schemata
+  - search_api
+  - seckit
+  - security_review
+  - shield
+  - simple_oauth
+  - simple_sitemap
+  - slick
+  - slick_media
+  - slick_views
+  - smart_trim
+  - smtp
+  - social_api
+  - social_auth
+  - social_auth_facebook
+  - social_auth_google
+  - social_auth_linkedin
+  - social_auth_twitter
+  - styleguide
+  - swiftmailer
+  - taxonomy_access_fix
+  - taxonomy_menu
+  - token
+  - total_control
+  - tour_builder
+  - tour_ui
+  - ultimate_cron
+  - update_helper
+  - username_enumeration_prevention
+  - userprotect
+  - views_bootstrap
+  - views_bulk_edit
+  - views_bulk_operations
+  - views_infinite_scroll
+  - viewsreference
+  - vmi
+  - webform
+  - webform_analysis
+  - webform_views
+  - yoast_seo
+
+# What this folder's items ARE, which decides what the dashboard offers on each row:
+#   sites     — real projects with a DDEV environment: build, start, back up, graph, index
+#   code      — repositories checked out to work on, without a site of their own
+#   files     — markdown documents, edited in place
+#   ai-items  — agents, skills and prompts, installable into ~/.claude
+#   media     — recordings and images
+type: code
+
+# What the COMPOSER menu may do here: full | manifest.
+composer: manifest
+
+assistant:
+  name: default
+  placeholder: default

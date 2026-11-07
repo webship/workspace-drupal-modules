@@ -1,0 +1,12 @@
+Feature: The Drupal modules workspace plugin
+  Once the plugin is activated and installed, the modules workspace is on the dashboard, and the
+  Plugins page lists the plugin with its four steps.
+
+  Scenario: The workspace page is there
+    Given I am on "/modules"
+     Then I should see "Drupal modules"
+
+  Scenario: The plugin is listed on the Plugins page
+    Given I am on "/settings/plugins"
+     Then I should see "Drupal modules"
+      And I should see "@webship/workspace-drupal-modules"

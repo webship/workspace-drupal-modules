@@ -1,4 +1,4 @@
-# @webship/workspace-drupal-modules
+# @webship.co/workspace-drupal-modules
 
 The **Drupal modules** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `modules/` folder (type `code`), its settings file (`core/config/workspace.modules.settings.yml`),

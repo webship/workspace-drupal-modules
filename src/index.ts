@@ -7,10 +7,10 @@
  * rail buttons, row menus or assistant context would go.
  */
 
-import type { PluginApi } from '@webship/workspace-plugin-api';
+import type { PluginApi } from '@webship.co/workspace-plugin-api';
 
 export const WORKSPACE_KEY = 'modules';
 
 export function register(api: PluginApi): void {
-  api.addAssistantContext(() => `The modules/ workspace is the Drupal modules workspace (a plugin, @webship/workspace-drupal-modules); its commands are the cmd-*.sh scripts in that folder.`);
+  api.addAssistantContext(() => `The modules/ workspace is the Drupal modules workspace (a plugin, @webship.co/workspace-drupal-modules); its commands are the cmd-*.sh scripts in that folder.`);
 }

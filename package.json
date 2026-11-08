@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-drupal-modules",
   "version": "1.0.0-alpha1",
-  "description": "The Drupal modules workspace for Webship Workspace: the `modules/` folder (type code), its settings file, its 9 commands and its docs, activated as a plugin.",
+  "description": "The Drupal modules workspace for Webship Workspace: the `modules/` folder (type code), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,17 +29,7 @@
     "workspace": {
       "key": "modules",
       "settingsTemplate": "config/workspace.modules.settings.yml",
-      "files": [
-        "commands/cmd-tool-backup-module.sh",
-        "commands/cmd-tool-git-change-filemode-to-false.sh",
-        "commands/cmd-tool-git-clone-all-modules.sh",
-        "commands/cmd-tools-checks.sh",
-        "commands/cmd-tools-gitlab-ci-local.sh",
-        "commands/cmd-tools-graphify.sh",
-        "commands/cmd-tools-obsidian.sh",
-        "commands/cmd-tools-ragify.sh",
-        "commands/cmd-tools-reclaim.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",

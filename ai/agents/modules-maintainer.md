@@ -1,6 +1,6 @@
 ---
 name: modules-maintainer
-description: Use this agent to work on a Drupal module checked out in the `modules/` folder of the Webship Workspace and bring it to green before a push: its code-quality checks with `cmd-tools-checks.sh`, its GitLab CI pipeline on this machine with `cmd-tools-gitlab-ci-local.sh`, a backup with `cmd-tool-backup-module.sh`. It never deletes or re-clones a checkout. Invoke for "run the checks of this module", "run the module's pipeline locally before I push", "why is phpcs red on this module", "back up this module", or "which modules are checked out".
+description: Use this agent to work on a Drupal module checked out in the `modules/` folder of the Webship Workspace and bring it to green before a push — its code-quality checks with `cmd-tools-checks.sh`, its GitLab CI pipeline on this machine with `cmd-tools-gitlab-ci-local.sh`, a backup with `cmd-tool-backup-module.sh`. It never deletes or re-clones a checkout. Invoke for "run the checks of this module", "run the module's pipeline locally before I push", "why is phpcs red on this module", "back up this module", or "which modules are checked out".
 model: fable
 tools:
   - Bash
